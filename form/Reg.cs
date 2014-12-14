@@ -44,8 +44,14 @@ namespace form
         }
 
         private void Reg_Load(object sender, EventArgs e)
+            
         {
-            FileStream fs = new FileStream(AppDomain.CurrentDomain.BaseDirectory + "\\conf.txt", FileMode.Open);
+            var path=AppDomain.CurrentDomain.BaseDirectory + "\\conf.txt";
+            if (!File.Exists(path)) {
+                File.Create(AppDomain.CurrentDomain.BaseDirectory + "\\conf.txt");
+            }
+
+            FileStream fs = new FileStream(path, FileMode.Open);
 
             StreamReader sr = new StreamReader(fs);
 

@@ -55,7 +55,8 @@ namespace form
         private void Form1_Load(object sender, EventArgs e)
         {
            
-            webBrowser1.Url = new Uri(ShowURL);// new Uri(ReadConfig());
+           webBrowser1.Url = new Uri(ShowURL);// new Uri(ReadConfig());
+           // webKitBrowser1.Url = new Uri(ShowURL);
             //label1.Text = GetCode();
         }
 
@@ -109,6 +110,16 @@ namespace form
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

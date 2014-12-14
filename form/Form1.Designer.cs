@@ -39,22 +39,22 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pic_current = new System.Windows.Forms.PictureBox();
             this.lbl_code = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pic_current_view = new System.Windows.Forms.PictureBox();
             this.eventLog1 = new System.Diagnostics.EventLog();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.pic_current = new System.Windows.Forms.PictureBox();
+            this.pic_current_view = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_current)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_current_view)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_current)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_current_view)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -134,31 +134,6 @@
             this.webBrowser1.Url = new System.Uri("http://543", System.UriKind.Absolute);
             this.webBrowser1.WebBrowserShortcutsEnabled = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::form.Properties.Resources._5555;
-            this.pictureBox1.Location = new System.Drawing.Point(65, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(261, 246);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Visible = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pic_current
-            // 
-            this.pic_current.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pic_current.BackColor = System.Drawing.Color.Transparent;
-            this.pic_current.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_current.Image = global::form.Properties.Resources.W020130820503322544506;
-            this.pic_current.Location = new System.Drawing.Point(-17, 51);
-            this.pic_current.Name = "pic_current";
-            this.pic_current.Size = new System.Drawing.Size(262, 342);
-            this.pic_current.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_current.TabIndex = 8;
-            this.pic_current.TabStop = false;
-            // 
             // lbl_code
             // 
             this.lbl_code.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -182,16 +157,6 @@
             this.label2.Size = new System.Drawing.Size(78, 25);
             this.label2.TabIndex = 10;
             this.label2.Text = "打印码";
-            // 
-            // pic_current_view
-            // 
-            this.pic_current_view.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pic_current_view.Location = new System.Drawing.Point(477, 297);
-            this.pic_current_view.Name = "pic_current_view";
-            this.pic_current_view.Size = new System.Drawing.Size(182, 226);
-            this.pic_current_view.TabIndex = 11;
-            this.pic_current_view.TabStop = false;
-            this.pic_current_view.Visible = false;
             // 
             // eventLog1
             // 
@@ -232,6 +197,41 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "230px";
             // 
+            // pic_current
+            // 
+            this.pic_current.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pic_current.BackColor = System.Drawing.Color.Transparent;
+            this.pic_current.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_current.Image = global::form.Properties.Resources.W020130820503322544506;
+            this.pic_current.Location = new System.Drawing.Point(-17, 51);
+            this.pic_current.Name = "pic_current";
+            this.pic_current.Size = new System.Drawing.Size(262, 342);
+            this.pic_current.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_current.TabIndex = 8;
+            this.pic_current.TabStop = false;
+            // 
+            // pic_current_view
+            // 
+            this.pic_current_view.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pic_current_view.Location = new System.Drawing.Point(477, 297);
+            this.pic_current_view.Name = "pic_current_view";
+            this.pic_current_view.Size = new System.Drawing.Size(182, 226);
+            this.pic_current_view.TabIndex = 11;
+            this.pic_current_view.TabStop = false;
+            this.pic_current_view.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::form.Properties.Resources._5555;
+            this.pictureBox1.Location = new System.Drawing.Point(65, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(261, 246);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -254,15 +254,17 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "聚优客微信打印机客户测试程序";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_current)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_current_view)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_current)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_current_view)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,6 +291,7 @@
         private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
+      
     }
 }
 
